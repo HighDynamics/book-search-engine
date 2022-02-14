@@ -31,7 +31,6 @@ const typeDefs = gql`
     bookId: String
     image: String
     link: String
-    title: String
   }
 
   type Query {
@@ -45,3 +44,5 @@ const typeDefs = gql`
     removeBook(bookId: String): User
   }
 `;
+
+module.exports = typeDefs;

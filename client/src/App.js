@@ -4,8 +4,8 @@ import {
   ApolloProvider,
   InMemoryCache,
   createHttpLink,
-} from 'apollo-client';
-import { setContext } from 'apollo/client/link/context';
+} from '@apollo/client';
+import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import SearchBooks from './pages/SearchBooks';
